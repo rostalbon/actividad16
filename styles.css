@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #3a0404;
+}
+
+/* Estilo de encabezados */
+h1 {
+    color: #f1bc0c;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #aa8c07;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #aa8c07;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo de párrafos */
+p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Estilo de inputs y selects */
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #f1bc0c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-bottom: 1em;
+}
+
+button:hover {
+    background-color: #aa8c07;
+}
+
+/* Estilo de contenedores */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(82, 3, 3);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.miniCont {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(141, 6, 6);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    background-color: #3a0404;
+    border-width: 0;
+    border-radius: 0.5em;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.select {
+    background-color: #3a0404;
+    border-width: 0;
+    color: #666;
+}
+
+.show-btn {
+    margin-top: 1em;
+}
+
+img {
+    width: 163px;
+    height: 227px;
+    border-style: solid;
+    border-color: #f1bc0c;
+    border-radius: 0.5em;
+}
+
+.card {
+    background-color: #581c00;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}

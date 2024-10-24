@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad API Rest</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Harry Potter Characters</h1>
+      <h2>Random characters</h2>
+      <h4>Number of characters</h4>
+      <input type="number" id="num" />
+      <br />
+      <button onclick="showRandomCharacters()">Show characters</button>
+      <h2>Filters</h2>
+      <h4>Name (complete)</h4>
+      <input type="text" id="name" />
+      <h4>Year of birth</h4>
+      <input type="number" id="yearOfBirth" />
+      <h4>
+        House (this filter is not going to be detected if you are already using
+        the 'name' or the 'year of birth' filters)
+      </h4>
+      <select name="" id="house" class="select">
+        <option value="0">Any</option>
+        <option value="1">Griffindor</option>
+        <option value="2">Slytherin</option>
+        <option value="3">Ravenclaw</option>
+        <option value="4">Hufflepuff</option>
+      </select>
+      <br />
+      <button onclick="showCharacters()" class="show-btn">
+        Show characters
+      </button>
+      <br />
+      <button onclick="clean()">Clean</button>
+      <div id="body">
+        <p id="res">Ask for characters, it is not necessary to use filters</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
